@@ -1,0 +1,48 @@
+body, html {
+  background-color: grey;  
+}
+
+#outer-box {
+  background-color: #C3C3C3;
+  margin: auto;
+  padding: 10px;
+  width: 40%;
+  border: solid orange 5px;
+  display: flex;
+  margin-top: 50px;
+}
+
+#pad-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  width: 50%;
+}
+
+.drum-pad {
+  padding: 5px;
+  margin: 5px;
+  background-color: grey;
+  width: 75px;
+  height: 75px;
+  font-weight: bold;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10%;
+  box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.2);
+}
+
+.drum-pad:active {
+  background-color: orange;
+}
+
+#display {
+  display: inline-block;
+  margin: auto;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
